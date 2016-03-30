@@ -1,0 +1,19 @@
+{
+    "name": "lj",
+    "version": "1.0.0",
+    "description": "Learning Javascript",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arenagroove/lj.git"
+    },
+    "author": "luis.martinezriancho.developer@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/arenagroove/lj/issues"
+    },
+    "homepage": "https://github.com/arenagroove/lj#readme"
+}
