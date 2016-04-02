@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 
-gulp.task('default', function() {
+gulp.task('es6ToDist', function() {
     // Node source
     gulp.src("es6/**/*.js")
         .pipe(babel())
@@ -11,3 +11,5 @@ gulp.task('default', function() {
         .pipe(babel())
         .pipe(gulp.dest("public/dist"));
 });
+
+gulp.task('default', ['es6ToDist']);
